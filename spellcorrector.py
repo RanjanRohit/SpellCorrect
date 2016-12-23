@@ -9,7 +9,7 @@ def fn1(str):
 #We have over a million words in big.txt
 dict=Counter(fn1(open('big.txt').read()))
 
-#A function to reurn probability of a word
+#A function to return probability of a word
 def Prob(word):
     n=sum(dict.values())
     return dict[word]/n
