@@ -27,7 +27,7 @@ if(char.lower()=='y'):
         print(dict.most_common(num)[i][0],"   ",Prob(dict.most_common(num)[i][0])) 
 else:
     #Code for correcting the spelling goes here
-    print('OkBye :(')
+    print('OkBye ..We will do it soon :)')
     
 print('Okay Bye. Have a nice day.')
 
